@@ -371,19 +371,45 @@ img{
     align-items: center;
     justify-content: space-between;
 }
-.section-f .dots{
+.dots{
     display: flex;
 }
-.section-f div .dot-red{
+.dot-red{
     background-color: #ff0000;
-}
-.section-f div .dot-white{
     width: 15px;
     height: 15px;
     border-radius: 50%;
     margin-right: 10px;
     cursor: pointer;
 }
+.dot-white{
+    background-color: rgb(221, 221, 221);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.arrow-icon{
+    display: flex;
+}
+.arrow-left{
+    margin-right: 20px;
+}
+.arrow-icon .arrow-left, .arrow-icon .arrow-right{
+    width: 60px;
+    height: 60px;
+    border: 2px solid #ff0000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.arrow-right{
+    background-color: #ff0000;
+}
+
 
 
 /* Subscribe */
@@ -391,30 +417,27 @@ img{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    top: 120px;
+    margin-top: 20px;
     box-shadow: rgba(0, 0, 0, 0.09) 0px 20px 60px;
-    padding: 6rem 7rem;
+    padding: 7rem 2rem;
     border-radius: 10px;
+   
 }
 .subscribe-left{
     max-width: 370px;
 }
 .subscribe .title{
-    font-size: 2.5rem;
+    font-size: 2.4rem;
     margin-bottom: 20px;
     font-weight: 500;
     color: #0b132a;
 }
 .subscribe-right .subscribe-btn{
-    display: inline-block;
+    text-align: center;
     background-color: #ff4500;
-    color: #fff;
-    border: none;
     border-radius: 10px;
-    padding: 1rem 6rem;
-    margin-top: 20px;
+    padding: 2.1rem 3.75rem;
     cursor: pointer;
-    box-shadow: rgba(245, 56, 56, 0.35) 0px 20px 40px;
     
 }
 /* footer */
