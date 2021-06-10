@@ -110,7 +110,7 @@ span{
 }
 
 .btn:hover{
-    background-color: #242427;;
+    background-color: #242427;
 }
 .btn{
     display: inline-block;
@@ -432,13 +432,20 @@ img{
     font-weight: 500;
     color: #0b132a;
 }
-.subscribe-right .subscribe-btn{
-    text-align: center;
+.subscribe-btn{
+    display: inline-block;
     background-color: #ff4500;
+    color: #fff;
+    border: none;
     border-radius: 10px;
-    padding: 2.1rem 3.75rem;
+    padding: 1rem 6rem;
+    margin-top: 20px;
     cursor: pointer;
-    
+    box-shadow: 0 20px 40px rgb(245 56 56 / 35%);
+}
+
+.subscribe-btn:hover{
+    background-color: #242427;
 }
 /* footer */
 footer .container{
@@ -452,24 +459,24 @@ footer .footer-logo{
 }
 footer p{
     margin-bottom: 30px;
+    margin-top: 10px;
     line-height: 30px;
 }
 footer .social-icons{
     margin-right: 20px;
     width: 50%;
     height: 34px;
-    
 }
+.social-icons .social-icon{
+    border-radius: 50%;
+    border: 8px solid #fff;
+    margin-right: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 1px 5px;
+}
+
 footer .social-icon img{
     width: 20px;
     height: 17px;
-    margin-bottom: 20px;
-    align-items: center;
-    justify-content: space-between;
-    border-radius: 100%;
-    border-style: none;
-    background-color: #ffffff;
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 1px 5px;
 }
 footer .font-title{
     font-size: 1.8rem;
