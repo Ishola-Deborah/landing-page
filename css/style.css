@@ -84,7 +84,6 @@ nav ul li a:hover{
     padding-top: 100px;
 }
 .section-a .container{
-    max-width: 1140px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -167,7 +166,6 @@ span{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: relative;
 }
 .section-title{
     font-family: 'Rubik', sans-serif;
