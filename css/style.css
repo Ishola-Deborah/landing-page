@@ -471,7 +471,7 @@ img{
     border-radius: 10px;
     padding: 1rem 6rem;
     margin-top: 20px;
-    cursor: pointer;
+    cursor: progress;
     box-shadow: 0 20px 40px rgb(245 56 56 / 35%);
 }
 
